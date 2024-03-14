@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+#canvas1 {
+  border: 5px solid darkgrey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background: url('./Assets/background.png')
+}
+
+#beetlemorph, #player, #player_jets, #rhinomorph, #boss {
+  display: none;
+}
